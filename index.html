@@ -4,11 +4,13 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
+<section id="top_section">
 
+</section>
 
 <html>
 	<head>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <script>
@@ -40,7 +42,7 @@
         <style>
 
         </style>
-		<title id="top">Daroubar</title>
+		<title>Daroubar</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -53,7 +55,7 @@
 				<div class="inner">
 					<a href="index.html" class="logo" >DAROUBAR</a>
 					<nav id="nav">
-						<a class="onclr" href="index.html#top">Home</a>
+						<a class="onclr" href="index.html#top_section">Home</a>
 						<a class="onclr" href="index.html#one">Introduction</a>
 						<a class="onclr" href="index.html#two">About Us</a>
                         <a class="onclr" href="index.html#three">Contact Us</a>
@@ -151,18 +153,33 @@
 						<p>Stay in touch!</p>
 					</header>
 					<div class="flex flex-2">
-						<article>
-							<div class="image fit">
-								<img src="images/pic01.jpg" alt="Pic 01" />
-							</div>
-							<header>
-								<h3>Praesent placerat magna</h3>
-							</header>
-							<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
-						</article>
+                        <div class="container">
+                            <form>
+                                <label class="form_box" for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                                <label class="form_box_last" for="email">Email Address</label>
+                                <input type="text" id="email" name="lastname" placeholder="Your email..">
+
+
+                                <!--
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                    <option value="australia">Australia</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                                -->
+
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                                <input type="submit" value="Submit">
+
+                            </form>
+                        </div>
+
+                        <!--
 						<article>
 							<div class="image fit">
 								<img src="images/pic02.jpg" alt="Pic 02" />
@@ -175,10 +192,15 @@
 								<a href="#" class="button special">More</a>
 							</footer>
 						</article>
+						-->
 					</div>
 				</div>
 			</section>
 
+
+    <section id="four" class="wrapper style1 special">
+
+    </section>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -193,6 +215,8 @@
 							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
 							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
 							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+                            <li><a href="#" class="icon fa-telegram"><span class="label">Telegram</span></a></li>
+
 						</ul>
 					</div>
 				</div>
